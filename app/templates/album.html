@@ -6,21 +6,21 @@
 		<div class="album-view-details column half">
 			<h2 class="album-view-title">{{album.albumData.title}}</h2>
 				<div ng-init="albumCount=0">
-			  <span class="ion-ios-star" ng-show="albumCount >= 1" ng-click= "albumCount = albumCount - 1"></span>
-				<span class="ion-ios-star" ng-show="albumCount >= 2" ng-click= "albumCount = albumCount - 1"></span>
+			  <span class="ion-ios-star" ng-show="albumCount >= 1" ng-click= "albumCount = 0"></span>
+				<span class="ion-ios-star" ng-show="albumCount >= 2" ng-click= "albumCount = 1"></span>
 				<span class="ion-ios-star" ng-show="albumCount >= 3" ng-click= "albumCount = 0"></span>
-				<span class="ion-ios-star-outline" ng-show="albumCount == 0" ng-click= "albumCount = albumCount + 1"></span>
-				<span class="ion-ios-star-outline" ng-show="albumCount < 2" ng-click= "albumCount = albumCount + 1"></span>
-				<span class="ion-ios-star-outline" ng-show="albumCount < 3" ng-click= "albumCount = albumCount + 1"></span>
+				<span class="ion-ios-star-outline" ng-show="albumCount == 0" ng-click= "albumCount = 1"></span>
+				<span class="ion-ios-star-outline" ng-show="albumCount < 2" ng-click= "albumCount = 2"></span>
+				<span class="ion-ios-star-outline" ng-show="albumCount < 3" ng-click= "albumCount = 3"></span>
 			</div>
 			<h3 class="album-view-artist">{{album.albumData.artist}}</h3>
 			<div ng-init="artistCount=0">
-			<span class="ion-ios-star" ng-show="artistCount >= 1" ng-click= "artistCount = artistCount - 1"></span>
-			<span class="ion-ios-star" ng-show="artistCount >= 2" ng-click= "artistCount = artistCount - 1"></span>
+			<span class="ion-ios-star" ng-show="artistCount >= 1" ng-click= "artistCount = 0"></span>
+			<span class="ion-ios-star" ng-show="artistCount >= 2" ng-click= "artistCount = 1"></span>
 			<span class="ion-ios-star" ng-show="artistCount >= 3" ng-click= "artistCount = 0"></span>
-			<span class="ion-ios-star-outline" ng-show="artistCount == 0" ng-click= "artistCount = artistCount + 1"></span>
-			<span class="ion-ios-star-outline" ng-show="artistCount < 2" ng-click= "artistCount = artistCount + 1"></span>
-			<span class="ion-ios-star-outline" ng-show="artistCount < 3" ng-click= "artistCount = artistCount + 1"></span>
+			<span class="ion-ios-star-outline" ng-show="artistCount == 0" ng-click= "artistCount = 1"></span>
+			<span class="ion-ios-star-outline" ng-show="artistCount < 2" ng-click= "artistCount = 2"></span>
+			<span class="ion-ios-star-outline" ng-show="artistCount < 3" ng-click= "artistCount = 3"></span>
 		</div>
 			<h5 class="album-view-release-info">{{album.albumData.label}} {{album.albumData.year}}</h5>
 		</div>
@@ -34,12 +34,12 @@
 			</td>
 			<td class="song-item-title">{{song.title}}</td>
 			<div ng-init="count=0">
-			<td class="ion-ios-star" ng-show="count >= 1" ng-click= "count = count - 1"></td>
-			<td class="ion-ios-star" ng-show="count >= 2" ng-click= "count = count - 1"></td>
+			<td class="ion-ios-star" ng-show="count >= 1" ng-click= "count = 0"></td>
+			<td class="ion-ios-star" ng-show="count >= 2" ng-click= "count = 1"></td>
 			<td class="ion-ios-star" ng-show="count >= 3" ng-click= "count = 0"></td>
-			<td class="ion-ios-star-outline" ng-show="count == 0" ng-click= "count = count + 1"></td>
-			<td class="ion-ios-star-outline" ng-show="count < 2" ng-click= "count = count + 1"></td>
-			<td class="ion-ios-star-outline" ng-show="count < 3" ng-click= "count = count + 1"></td>
+			<td class="ion-ios-star-outline" ng-show="count == 0" ng-click= "count = 1"></td>
+			<td class="ion-ios-star-outline" ng-show="count < 2" ng-click= "count = 2"></td>
+			<td class="ion-ios-star-outline" ng-show="count < 3" ng-click= "count = 3"></td>
 		</div>
 			<td class="song-item-duration">{{song.duration | timecode}}</td>
 		</tr>

@@ -1,11 +1,11 @@
 body.landing {
-  background-color: black;
+  background-color: white;
 }
 
 .hero-content {
   position: relative;
   min-height: 600px;
-  background-image: url(../assets/images/bloc_jams_bg.jpg);
+  background-image: url(../assets/images/ambient_jams_bg.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -25,7 +25,12 @@ body.landing {
   text-transform: uppercase;
   letter-spacing: .5rem;
   text-shadow: 1px 1px 0px rgb(58, 23, 63);
-  color: red;
+  color: white;
+}
+
+.logo{
+  width: 100px;
+  height: 75px;
 }
 
 .selling-points {
@@ -47,6 +52,6 @@ body.landing {
 .ion-music-note,
 .ion-radio-waves,
 .ion-iphone {
-  color: red;
+  color: white;
   font-size: 5rem;
 }

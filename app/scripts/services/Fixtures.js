@@ -1,28 +1,35 @@
 (function () {
   function Fixtures() {
     var Fixtures = {};
-
+//#F9F9F9
     var albumPicasso = {
       title: 'The Colors',
-      artist: 'Pablo Picasso',
-      label: 'Cubism',
-      year: '1881',
-      albumArtUrl: '/assets/images/album_covers/01.png',
+      artist: 'Chris Zabriskie',
+      label: 'Reappear',
+      year: '2012',
+      albumArtUrl: '/assets/images/album_covers/Reappear.jpg',
       songs: [
-        {title: 'Blue',
-          duration: '161.71',
-          audioUrl: '/assets/music/blue'},
-        {title: 'Green',
-          duration: '103.96',
-          audioUrl: '/assets/music/green'},
-        {title: 'Red',
-          duration: '268.45',},
-        {title: 'Pink',
-          duration: '153.14',
-          audioUrl: '/assets/music/pink'},
-        {title: 'Magenta',
-          duration: '374.22',
-          audioUrl: '/assets/music/magenta'}
+        {title: 'Unfoldment Revealment Evolution Exposition Integration Arson',
+          duration: '653.00', //10:53
+          audioUrl: '/assets/music/Unfoldment_Revealment_Evolution_Exposition_Integration_Arson'},
+        {title: 'Readers Do You Read',
+          duration: '304.00',//5:04
+          audioUrl: '/assets/music/Readers_Do_You_Read'},
+        {title: 'Out of the Skies Under the Earth',
+          duration: '363.00',//6:03
+          audioUrl: '/assets/music/Out_of_the_Skies_Under_the_Earth'},
+        {title: 'Is That You or Are You You',
+          duration: '301.00',//5:01
+          audioUrl: '/assets/music/Is_That_You_or_Are_You_You'},
+        {title: 'What True Self Feels Bogus Lets Watch Jason X',
+          duration: '311.00',//6:11
+          audioUrl: '/assets/music/What_True_Self_Feels_Bogus_Lets_Watch_Jason_X'},
+        {title: 'Chance Luck Errors in Nature Fate Destruction As a Finale',
+          duration: '656.00',//10:56
+          audioUrl: '/assets/music/Chance_Luck_Errors_in_Nature_Fate_Destruction_As_a_Finale'},
+        {title: 'Virtues Inherited Vices Passed On',
+          duration: '612.00',//6:12
+          audioUrl: '/assets/music/Virtues_Inherited_Vices_Passed_On'}
        ]
     };
 
